@@ -1084,8 +1084,7 @@ a .team-link-item {
     align-items: center;
     flex-wrap: wrap;
     gap: 72px;
-    padding-left: 109px;
-    padding-right: 148px;
+    padding-left: 92px;
   }
 
   .footer-first-block {
@@ -1328,8 +1327,8 @@ a .team-link-item {
     align-items: baseline;
     flex-wrap: nowrap;
     gap: 80px;
-    /* padding-left: 0;
-    padding-right: 0; */
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .footer-first-block {
