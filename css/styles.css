@@ -366,6 +366,7 @@ ul {
 
 .main-principals-subtitle-text {
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -1073,7 +1074,7 @@ a .team-link-item {
   }
 
   .portfolio-item {
-    width: cal((100%-48px)/2);
+    width: calc((100%-48px)/2);
   }
 
   .container-footer-wrap {
@@ -1083,7 +1084,7 @@ a .team-link-item {
     align-items: center;
     flex-wrap: wrap;
     gap: 72px;
-    padding-left: 134px;
+    padding-left: 109px;
     padding-right: 148px;
   }
 
@@ -1103,7 +1104,7 @@ a .team-link-item {
   }
 
   .footer-list-item {
-    width: cal((100%-72px)/2);
+    width: calc((100%-72px)/2);
   }
 
   .footer-text {
@@ -1202,14 +1203,11 @@ a .team-link-item {
 @media (min-width: 1158px) {
   .container {
     min-width: 1158px;
-    max-width: 1440px;
-    padding-left: 156px;
-    padding-right: 156px;
   }
 
   .main-solutions {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/people-office.jpg);
   }
@@ -1292,12 +1290,17 @@ a .team-link-item {
   }
 
   .team-item {
-    width: cal((100%-72px)/4);
+    width: calc((100%-72px)/4);
   }
 
   .portfolio-image {
     width: 100%;
     height: 100%;
+  }
+
+  .portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .portfolio-list {
@@ -1309,7 +1312,7 @@ a .team-link-item {
   }
 
   .portfolio-item {
-    width: cal((100%-72px)/3);
+    width: calc((100%-72px)/3);
   }
 
   .footer {
